@@ -88,9 +88,7 @@ PassToken(i) ==
 
 System ==
     \/ InitiateProbe
-    \* TODO Who can pass the token?
-    \/ \E i \in Node : PassToken(i)
-
+    \/ \E i \in Node \ {0}: PassToken(i)
 
 -----------------------------------------------------------------------------
 
