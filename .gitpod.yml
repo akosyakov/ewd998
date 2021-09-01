@@ -14,3 +14,4 @@ vscode:
     - tomoki1207.pdf
     - efanzh.graphviz-preview
     - mhutchie.git-graph
+    - dbaeumer.vscode-eslint@2.1.1
